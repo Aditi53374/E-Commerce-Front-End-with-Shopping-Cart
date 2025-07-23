@@ -39,9 +39,5 @@ E-Commerce-Front-End-with-Shopping-Cart/
 - Add more products by editing `products.json` and adding images to the `assets` folder.
 - Update styles in `style.css` as desired.
 
-## Credits
-- Built by [Your Name]
-- Images are placeholders and should be replaced for production use.
-
 ## License
 This project is open source and free to use. 
