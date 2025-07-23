@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Backpack",
+    "description": "Durable and spacious backpack for everyday use.",
+    "price": 49.99,
+    "image": "backpack.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Headphones",
+    "description": "Wireless headphones with noise cancellation.",
+    "price": 89.99,
+    "image": "headphones.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Shoes",
+    "description": "Comfortable running shoes for all terrains.",
+    "price": 69.99,
+    "image": "shoes.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Smartwatch",
+    "description": "Feature-rich smartwatch with health tracking.",
+    "price": 129.99,
+    "image": "smartwatch.jpg"
+  }
+] 

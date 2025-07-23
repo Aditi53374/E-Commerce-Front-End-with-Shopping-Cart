@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+}
+#products-section {
+    flex: 2;
+    margin-right: 2rem;
+}
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+.product {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 1rem;
+    text-align: center;
+}
+.product img {
+    max-width: 100%;
+    height: 140px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+.product h3 {
+    margin: 0.5rem 0;
+}
+.product button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.product button:hover {
+    background: #0056b3;
+}
+#cart-section {
+    flex: 1;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 1rem;
+    min-width: 280px;
+    max-width: 350px;
+}
+#cart {
+    margin-bottom: 1rem;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.cart-item span {
+    flex: 1;
+}
+.cart-item button {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+#checkout-btn {
+    width: 100%;
+    padding: 0.7rem;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+#checkout-btn:hover {
+    background: #218838;
+}
+#checkout-message {
+    color: #28a745;
+    font-weight: bold;
+    text-align: center;
+}
+@media (max-width: 900px) {
+    main {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    #products-section {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    #cart-section {
+        max-width: 100%;
+    }
+} 
