@@ -35,9 +35,5 @@ E-Commerce-Front-End-with-Shopping-Cart/
 └── README.md
 ```
 
-## Customization
-- Add more products by editing `products.json` and adding images to the `assets` folder.
-- Update styles in `style.css` as desired.
-
 ## License
 This project is open source and free to use. 
